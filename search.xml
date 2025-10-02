@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>dirsearch使用</title>
+      <link href="/ghsc_ovo_0721/dirsearch%E4%BD%BF%E7%94%A8/"/>
+      <url>/ghsc_ovo_0721/dirsearch%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target     //简单的查看网址目录和文件</span><br><span class="line"></span><br><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target -w db/dicc.txt        //使用文件拓展名为php,txt,zip的字典扫描目标url</span><br><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target -w db/dicc.txt --recursive -R 2</span><br><span class="line"></span><br><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target -w db/dicc.txt --recursive -R 4 --scan-subdirs=/,/wp-content/,/wp-admin/</span><br><span class="line"></span><br><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target -w db/dicc.txt --exclude-texts=This,AndThat</span><br><span class="line"></span><br><span class="line">python3 dirsearch.py -e php,txt,zip -u https://target -w db/dicc.txt -H &quot;User-Agent: IE&quot;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">python dirsearch.py -u http://xxxx        //日常使用</span><br><span class="line"></span><br><span class="line">python dirsearch.py -u http://xxxx -r        //递归扫描，不过容易被检测</span><br><span class="line"></span><br><span class="line">python dirsearch.py -u http://xxxx -r -t 30        //线程控制请求速率</span><br><span class="line"></span><br><span class="line">python dirsearch.py -u http://xxxx -r -t 30 --proxy 127.0.0.1:8080        //使用代理</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> WEB </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>(WEB)2025 SWPU-NSSCTF 秋季招新入门训练赛 (1-13)</title>
       <link href="/ghsc_ovo_0721/WEB-2025-SWPU-NSSCTF-%E7%A7%8B%E5%AD%A3%E6%8B%9B%E6%96%B0%E5%85%A5%E9%97%A8%E8%AE%AD%E7%BB%83%E8%B5%9B/"/>
       <url>/ghsc_ovo_0721/WEB-2025-SWPU-NSSCTF-%E7%A7%8B%E5%AD%A3%E6%8B%9B%E6%96%B0%E5%85%A5%E9%97%A8%E8%AE%AD%E7%BB%83%E8%B5%9B/</url>

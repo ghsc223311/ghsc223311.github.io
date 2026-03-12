@@ -176,25 +176,6 @@
     
     
     <entry>
-      <title>ROPgadget 使用</title>
-      <link href="/ghsc_ovo_0721/ROPgadget%20%E4%BD%BF%E7%94%A8/"/>
-      <url>/ghsc_ovo_0721/ROPgadget%20%E4%BD%BF%E7%94%A8/</url>
-      
-        <content type="html"><![CDATA[<p>安裝:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install python-capstone</span><br><span class="line"> </span><br><span class="line">git clone https://github.com/JonathanSalwan/ROPgadget.git</span><br><span class="line"> </span><br><span class="line">cd ROPgadget</span><br><span class="line"> </span><br><span class="line">sudo python3 setup.py install</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop  --only &#x27;pop|ret&#x27; | grep &#x27;eax&#x27;</span><br><span class="line">查找可存储寄存器的代码</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop --string &quot;/bin/sh&quot;</span><br><span class="line">查找字符串</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop  --only &#x27;int&#x27;</span><br><span class="line">查找有int 0x80的地址</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> PWN </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>dirsearch使用</title>
       <link href="/ghsc_ovo_0721/dirsearch%E4%BD%BF%E7%94%A8/"/>
       <url>/ghsc_ovo_0721/dirsearch%E4%BD%BF%E7%94%A8/</url>
@@ -214,6 +195,25 @@
             <tag> Dirsearch </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ROPgadget 使用</title>
+      <link href="/ghsc_ovo_0721/ROPgadget%20%E4%BD%BF%E7%94%A8/"/>
+      <url>/ghsc_ovo_0721/ROPgadget%20%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<p>安裝:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install python-capstone</span><br><span class="line"> </span><br><span class="line">git clone https://github.com/JonathanSalwan/ROPgadget.git</span><br><span class="line"> </span><br><span class="line">cd ROPgadget</span><br><span class="line"> </span><br><span class="line">sudo python3 setup.py install</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop  --only &#x27;pop|ret&#x27; | grep &#x27;eax&#x27;</span><br><span class="line">查找可存储寄存器的代码</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop --string &quot;/bin/sh&quot;</span><br><span class="line">查找字符串</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ROPgadget --binary rop  --only &#x27;int&#x27;</span><br><span class="line">查找有int 0x80的地址</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> PWN </category>
+          
+      </categories>
+      
       
     </entry>
     
